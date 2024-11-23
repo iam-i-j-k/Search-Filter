@@ -6,7 +6,7 @@ const App = () => {
   
   const [search, setSearch] = useState('');
   return (
-    <div className="px-2 sm:px-4 w-full h-full text-white bg-gradient-to-b from-slate-950 to-slate-900">
+    <div className="px-2 sm:px-4 w-full min-h-screen text-white bg-gradient-to-b from-slate-950 to-slate-900">
       <h1 className='text-2xl sm:text-4xl py-3 sm:py-5 font-semibold text-center italic'>List of Users</h1>
       <form className='pt-1'>
         <div className="relative">
